@@ -13,6 +13,9 @@
 		48DF20DD2621F3ED005D1E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DF20DB2621F3ED005D1E4E /* Main.storyboard */; };
 		48DF20DF2621F3EE005D1E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DF20DE2621F3EE005D1E4E /* Assets.xcassets */; };
 		48DF20E22621F3EE005D1E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DF20E02621F3EE005D1E4E /* LaunchScreen.storyboard */; };
+		48DF20EB2621FB5A005D1E4E /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF20EA2621FB5A005D1E4E /* PlayerState.swift */; };
+		48DF20EE2621FB6E005D1E4E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF20ED2621FB6E005D1E4E /* Player.swift */; };
+		48DF20F12621FDD7005D1E4E /* AVPlayerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF20F02621FDD7005D1E4E /* AVPlayerObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		48DF20DE2621F3EE005D1E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48DF20E12621F3EE005D1E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48DF20E32621F3EE005D1E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DF20EA2621FB5A005D1E4E /* PlayerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
+		48DF20ED2621FB6E005D1E4E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		48DF20F02621FDD7005D1E4E /* AVPlayerObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				48DF20DE2621F3EE005D1E4E /* Assets.xcassets */,
 				48DF20E02621F3EE005D1E4E /* LaunchScreen.storyboard */,
 				48DF20E32621F3EE005D1E4E /* Info.plist */,
+				48DF20EA2621FB5A005D1E4E /* PlayerState.swift */,
+				48DF20ED2621FB6E005D1E4E /* Player.swift */,
+				48DF20F02621FDD7005D1E4E /* AVPlayerObserver.swift */,
 			);
 			path = StreamAudioPlayer;
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			files = (
 				48DF20DA2621F3ED005D1E4E /* ViewController.swift in Sources */,
 				48DF20D62621F3ED005D1E4E /* AppDelegate.swift in Sources */,
+				48DF20EB2621FB5A005D1E4E /* PlayerState.swift in Sources */,
+				48DF20EE2621FB6E005D1E4E /* Player.swift in Sources */,
 				48DF20D82621F3ED005D1E4E /* SceneDelegate.swift in Sources */,
+				48DF20F12621FDD7005D1E4E /* AVPlayerObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
